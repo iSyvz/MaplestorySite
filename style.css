@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap'); */
+@import url(https://db.onlinewebfonts.com/c/c935c03285f3914c2b5a608a55bd2763?family=Maplestory+Bold);
 
 body {
     margin: 0;
@@ -6,10 +7,6 @@ body {
     font-family: "agbalumo", cursive;
     height: 100px;
 
-}
-
-h1{
-    padding: red;
 }
 
 .banner{
@@ -67,14 +64,25 @@ h1{
 
 }
 .banner .content h1 {
-    text-align: relative;
+    text-align: center;
     margin: 0;
     padding: 0;
     font-size: 50px;
-    text-transform: uppercase;
-    color: rgb(8, 0, 0);
+    text-transform:none;
+    color: rgb(255, 255, 255);
     white-space: nowrap;
+    text-shadow: 1px 1px 1px black;
+}
 
+.banner .content h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-transform:none;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-shadow: 1px 1px 1px black;
 }
 
 .infografico ul {
